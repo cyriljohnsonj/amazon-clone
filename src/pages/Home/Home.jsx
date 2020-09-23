@@ -15,14 +15,14 @@ function Home() {
         />
         <div className="home__row">
           <Product
-            id="1"
+            id={1}
             title="The Lean Startup"
             price={199}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
           />
           <Product
-            id="2"
+            id={2}
             title="Kenwood FDM301SS Multipro Compact (800 Watt) Foodprocessor"
             price={16415}
             rating={4}
@@ -32,21 +32,21 @@ function Home() {
 
         <div className="home__row">
           <Product
-            id="3"
+            id={3}
             title="Apple iPhone 11 Pro Max (64GB) - Silver"
             price={109790}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/61oub4ycmVL._SX679_.jpg"
           />
           <Product
-            id="4"
+            id={4}
             title="Apple AirPods Pro"
             price={21299}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/71zny7BTRlL._SX569_.jpg"
           />
           <Product
-            id="5"
+            id={5}
             title="Apple MacBook Pro (16-inch, 16GB RAM, 512GB Storage, 2.6GHz 9th Gen Intel Core i7) - Space Grey"
             price={1959029}
             rating={5}
@@ -55,7 +55,7 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            id="6"
+            id={6}
             title="OnePlus 138.8 cm (55 inches) Q1 Series 4K Certified Android QLED TV 55Q1IN-1 (Black) (Without Stand)"
             price={62899}
             rating={4}
