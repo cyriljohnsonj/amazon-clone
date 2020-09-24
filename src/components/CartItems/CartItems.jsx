@@ -4,7 +4,7 @@ import "./CartItems.css";
 
 import { useStateValue } from "../../utils/StateProvider";
 
-function Cartitems({ id, title, price, rating, image }) {
+function Cartitems({ id, title, price, rating, image, hideButton }) {
   // eslint-disable-next-line
   const [{ basket }, dispatch] = useStateValue();
   const removeFromBasket = () => {
@@ -31,7 +31,9 @@ function Cartitems({ id, title, price, rating, image }) {
               </span>
             ))}
         </div>
-        <button onClick={removeFromBasket}>Remove from Basket</button>
+        {!hideButton && (
+          <button onClick={removeFromBasket}>Remove from Basket</button>
+        )}
       </div>
     </div>
   );

@@ -55,6 +55,7 @@
 .header__optionLineTwo {
   font-size: 13px;
   font-weight: 800;
+  color: white;  /*Since Sign In/Sign Out is a hyperlink*/
 }
 
 .header__shoppingCart {
